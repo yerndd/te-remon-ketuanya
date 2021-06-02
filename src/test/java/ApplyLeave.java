@@ -20,14 +20,6 @@ public class ApplyLeave {
 //        Test3();
 //        Test4();
 //        Test5();
-//        Test6();
-
-        //Test Punch Out
-//        Test1Out();
-//        Test2Out();
-//        Test3Out();
-//        Test4Out();
-//        Test5Out();
     }
 
     //fungsi login dan membuka halaman attendance - punch in/out
@@ -156,7 +148,7 @@ public class ApplyLeave {
     }
 
     //input note alphanumeric
-    public static void Test4(){
+    public static void Test3(){
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
         HashMap<String, Object> map = new HashMap<String, Object>();
         map.put("profile.default_content_setting_values.notifications", 2);
@@ -181,8 +173,8 @@ public class ApplyLeave {
 
         //data testing
         String tipeCuti = "CAN - Bereavement";
-        String tanggalDari = "2021-06-01";
-        String tanggalKe = "2021-06-01";
+        String tanggalDari = "2021-06-02";
+        String tanggalKe = "2021-06-02";
         int durasi = 0;
         String urlTujuan = "https://opensource-demo.orangehrmlive.com/index.php/leave/applyLeave";
         CharSequence test = "qwertyuiopasdfghjklzxccvbnm1234567890";
@@ -205,7 +197,7 @@ public class ApplyLeave {
     }
 
     //input note query SQL
-    public static void Test5(){
+    public static void Test4(){
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
         HashMap<String, Object> map = new HashMap<String, Object>();
         map.put("profile.default_content_setting_values.notifications", 2);
@@ -254,7 +246,7 @@ public class ApplyLeave {
     }
 
     //input note lebih dari 250 karakter
-    public static void Test6(){
+    public static void Test5(){
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
         HashMap<String, Object> map = new HashMap<String, Object>();
         map.put("profile.default_content_setting_values.notifications", 2);
